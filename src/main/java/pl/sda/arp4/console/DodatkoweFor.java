@@ -10,10 +10,15 @@ public class DodatkoweFor {
 
         System.out.println("Podaj drugą liczbę");
         int b = scanner.nextInt();
+        int result = 1;
 
         for (int i = 0; i < b; i++) {
-            System.out.println(a*i);
+
+            result=result * a;
+
+            System.out.println(result + " = " + a + " * " + result );
 
         }
+        System.out.println("Wynik = " + result);
     }
 }
